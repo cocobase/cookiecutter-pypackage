@@ -14,13 +14,13 @@ Cookiecutter PyPackage
     :target: https://cookiecutter-pypackage.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-Cookiecutter_ template for a Python package.
+Cookiecutter_ 模版，用于初始化一个 Python 包的项目。
 
 * GitHub repo: https://github.com/audreyfeldroy/cookiecutter-pypackage/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
-Features
+功能
 --------
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``pytest``
@@ -48,19 +48,18 @@ Windows:
     :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
-Quickstart
+快速使用入门
 ----------
 
-Install the latest Cookiecutter if you haven't installed it yet (this requires
-Cookiecutter 1.4.0 or higher)::
+如果你的系统中没有安装最新版本的 Cookiecutter （至少需要Cookiecutter 1.4.0 版本或者更高的版本），需要安装最新的 Cookiecutter 库 ::
 
     pip install -U cookiecutter
 
-Generate a Python package project::
+执行命令生成一个 Python 包的工程项目::
 
     cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
 
-Then:
+然后：
 
 * Create a repo and put it there.
 * Add the repo to your Travis-CI_ account.
@@ -86,7 +85,7 @@ Not Exactly What You Want?
 
 Don't worry, you have options:
 
-Similar Cookiecutter Templates
+相似的 Cookiecutter 模版参考
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
@@ -112,7 +111,7 @@ Similar Cookiecutter Templates
 * Also see the `network`_ and `family tree`_ for this repo. (If you find
   anything that should be listed here, please add it and send a pull request!)
 
-Fork This / Create Your Own
+分叉 / 建立属于自己的特定模版
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have differences in your preferred setup, I encourage you to fork this
