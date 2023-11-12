@@ -59,6 +59,10 @@ Windows:
 
     cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
 
+可以使用 pipx 执行以下命令生成一个 Python 包的工程项目::
+
+    pipx run cookiecutter https://github.com/cocobase/cookiecutter-pypackage.git
+
 然后：
 
 * Create a repo and put it there.
