@@ -1,13 +1,13 @@
 =======
-Credits
+参与并贡献者
 =======
 
-Development Lead
+开发过程的领导者
 ----------------
 
 * {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 
-Contributors
+为项目作出贡献的人
 ------------
 
-None yet. Why not be the first?
+目前这是一个孤独的项目。何不成为第一个支持并贡献智慧的人？

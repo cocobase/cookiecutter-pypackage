@@ -1,7 +1,7 @@
 .. highlight:: shell
 
 ============
-Contributing
+贡献的记录
 ============
 
 Contributions are welcome, and they are greatly appreciated! Every little bit
@@ -9,10 +9,10 @@ helps, and credit will always be given.
 
 You can contribute in many ways:
 
-Types of Contributions
+贡献的不同方式
 ----------------------
 
-Report Bugs
+报告当前系统的 Bug
 ~~~~~~~~~~~
 
 Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
@@ -23,26 +23,26 @@ If you are reporting a bug, please include:
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
-Fix Bugs
+修复当前系统的 Bugs
 ~~~~~~~~
 
 Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
 wanted" is open to whoever wants to implement it.
 
-Implement Features
+实现正在开发的功能特性
 ~~~~~~~~~~~~~~~~~~
 
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
 
-Write Documentation
+书写当前系统的说明文档
 ~~~~~~~~~~~~~~~~~~~
 
 {{ cookiecutter.project_name }} could always use more documentation, whether as part of the
 official {{ cookiecutter.project_name }} docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
-Submit Feedback
+提交使用中的反馈
 ~~~~~~~~~~~~~~~
 
 The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
@@ -54,7 +54,7 @@ If you are proposing a feature:
 * Remember that this is a volunteer-driven project, and that contributions
   are welcome :)
 
-Get Started!
+开始贡献你的力量和智慧！
 ------------
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.

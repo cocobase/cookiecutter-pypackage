@@ -25,16 +25,16 @@
 {{ cookiecutter.project_short_description }}
 
 {% if is_open_source %}
-* Free software: {{ cookiecutter.open_source_license }}
-* Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io.
+* 自由开源软件： {{ cookiecutter.open_source_license }}
+* 说明文档： https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io.
 {% endif %}
 
-Features
+功能特性
 --------
 
 * TODO
 
-Credits
+参与并贡献者
 -------
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
