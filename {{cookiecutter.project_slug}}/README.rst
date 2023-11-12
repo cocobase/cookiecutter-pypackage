@@ -35,7 +35,7 @@
 * TODO
 
 参与并贡献者
--------
+-----------
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 

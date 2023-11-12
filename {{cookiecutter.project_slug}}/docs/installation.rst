@@ -1,14 +1,14 @@
 .. highlight:: shell
 
 ============
-Installation
+安装指南
 ============
 
 
 Stable release
 --------------
 
-To install {{ cookiecutter.project_name }}, run this command in your terminal:
+如果需要安装 {{ cookiecutter.project_name }}, 在你的终端中运行以下命令：
 
 .. code-block:: console
 
@@ -16,8 +16,7 @@ To install {{ cookiecutter.project_name }}, run this command in your terminal:
 
 This is the preferred method to install {{ cookiecutter.project_name }}, as it will always install the most recent stable release.
 
-If you don't have `pip`_ installed, this `Python installation guide`_ can guide
-you through the process.
+如果你没有安装 `pip`_ , 以下链接 `Python installation guide`_ 能够指导你完成基础的准备工作。
 
 .. _pip: https://pip.pypa.io
 .. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/

@@ -30,7 +30,7 @@ Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
 wanted" is open to whoever wants to implement it.
 
 实现正在开发的功能特性
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
@@ -55,7 +55,7 @@ If you are proposing a feature:
   are welcome :)
 
 开始贡献你的力量和智慧！
-------------
+--------------------
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.
 
@@ -93,10 +93,10 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
 
 7. Submit a pull request through the GitHub website.
 
-Pull Request Guidelines
------------------------
+拉取请求指南
+------------
 
-Before you submit a pull request, check that it meets these guidelines:
+在提交拉取请求之前，请检查它是否符合这些指导原则：
 
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put
@@ -106,10 +106,10 @@ Before you submit a pull request, check that it meets these guidelines:
    https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
-Tips
+技巧
 ----
 
-To run a subset of tests::
+运行测试的子集::
 
 {% if cookiecutter.use_pytest == 'y' -%}
     $ pytest tests.test_{{ cookiecutter.project_slug }}
@@ -117,15 +117,15 @@ To run a subset of tests::
     $ python -m unittest tests.test_{{ cookiecutter.project_slug }}
 {%- endif %}
 
-Deploying
+部署
 ---------
 
-A reminder for the maintainers on how to deploy.
-Make sure all your changes are committed (including an entry in HISTORY.rst).
-Then run::
+一个提示，用于提醒维护人员如何部署。
+确保所有更改都已提交(包括HISTORY.rst中的一个条目)。
+然后运行::
 
 $ bump2version patch # possible: major / minor / patch
 $ git push
 $ git push --tags
 
-Travis will then deploy to PyPI if tests pass.
+如果测试通过，Travis将部署到PyPI。
