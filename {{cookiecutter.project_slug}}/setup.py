@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""The setup script."""
+""" 安装程序分发的制作脚本 """
 
 from setuptools import setup, find_packages
 

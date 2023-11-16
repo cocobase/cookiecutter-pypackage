@@ -1,4 +1,7 @@
 # http://editorconfig.org
+# EditorConfig的作用是在多个编辑器和IDE之间维护一致的代码风格EditorConfig是一种配置文件格式，
+# 旨在帮助开发团队在不同的编辑器和IDE之间保持代码风格的一致性。 通过使用EditorConfig文件，
+# 开发人员可以定义并共享项目中的代码格式化规则，从而确保不同开发环境下的代码保持一致。
 
 root = true
 

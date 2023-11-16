@@ -1,1 +1,1 @@
-"""Unit test package for {{ cookiecutter.project_slug }}."""
+"""用于 {{ cookiecutter.project_slug }} 项目的单元测试包"""

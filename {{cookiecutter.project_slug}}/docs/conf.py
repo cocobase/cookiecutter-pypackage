@@ -45,7 +45,7 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-# General information about the project.
+# 项目的常用信息。
 project = '{{ cookiecutter.project_name }}'
 copyright = "{% now 'local', '%Y' %}, {{ cookiecutter.full_name }}"
 author = "{{ cookiecutter.full_name }}"
@@ -78,7 +78,7 @@ pygments_style = 'sphinx'
 todo_include_todos = False
 
 
-# -- Options for HTML output -------------------------------------------
+# -- HTML 的输出模版选项 -------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -97,13 +97,13 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 
-# -- Options for HTMLHelp output ---------------------------------------
+# -- HTMLHelp 输出的选项 ---------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = '{{ cookiecutter.project_slug }}doc'
 
 
-# -- Options for LaTeX output ------------------------------------------
+# -- LaTeX 公式和排版输出选项 ------------------------------------------
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
