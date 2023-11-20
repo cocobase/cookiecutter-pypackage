@@ -5,8 +5,8 @@
 ============
 
 
-Stable release
---------------
+稳定版本释放
+----------------
 
 如果需要安装 {{ cookiecutter.project_name }}, 在你的终端中运行以下命令：
 
@@ -22,24 +22,24 @@ This is the preferred method to install {{ cookiecutter.project_name }}, as it w
 .. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
 
 
-From sources
+源代码
 ------------
 
-The sources for {{ cookiecutter.project_name }} can be downloaded from the `Github repo`_.
+项目 {{ cookiecutter.project_name }} 的源代码可以从 `Github repo`_ 直接下载。
 
-You can either clone the public repository:
+你也可以从以下的公共代码库克隆复制：
 
 .. code-block:: console
 
     $ git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
-Or download the `tarball`_:
+或者选在下载压缩包 `tarball`_ ：
 
 .. code-block:: console
 
     $ curl -OJL https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/tarball/master
 
-Once you have a copy of the source, you can install it with:
+一旦你下载成功源代码的拷贝，可以使用以下的命令进行安装：
 
 .. code-block:: console
 

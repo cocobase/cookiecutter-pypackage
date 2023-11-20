@@ -27,7 +27,7 @@ BROWSER := python -c "$$BROWSER_PYSCRIPT"
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-clean: clean-build clean-pyc clean-test ## remove all build, test, coverage and Python artifacts
+clean: clean-build clean-pyc clean-test ## 删除所有构建、测试、覆盖率检查过程中 Python 留下的临时文件
 
 clean-build: ## remove build artifacts
 	rm -fr build/
@@ -78,7 +78,7 @@ coverage: ## check code coverage quickly with the default Python
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
-docs: ## generate Sphinx HTML documentation, including API docs
+docs: ## 生成 Sphinx HTML 文档，包括 API 文档
 	rm -f docs/{{ cookiecutter.project_slug }}.rst
 	rm -f docs/modules.rst
 	sphinx-apidoc -o docs/ {{ cookiecutter.project_slug }}
@@ -86,16 +86,16 @@ docs: ## generate Sphinx HTML documentation, including API docs
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
 
-servedocs: docs ## compile the docs watching for changes
+servedocs: docs ## 编译文档并跟踪文档变化和更改
 	watchmedo shell-command -p '*.rst' -c '$(MAKE) -C docs html' -R -D .
 
-release: dist ## package and upload a release
+release: dist ## 打包并上传版本
 	twine upload dist/*
 
-dist: clean ## builds source and wheel package
+dist: clean ## 构建源代码和wheel包
 	python setup.py sdist
 	python setup.py bdist_wheel
 	ls -l dist
 
-install: clean ## install the package to the active Python's site-packages
+install: clean ## 将包安装到活动的 Python 站点包中
 	python setup.py install

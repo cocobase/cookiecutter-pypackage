@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
-# {{ cookiecutter.project_slug }} documentation build configuration file, created by
-# sphinx-quickstart on Fri Jun  9 13:47:02 2017.
+# {{ cookiecutter.project_slug }} 文档创建配置文件，由
+# sphinx-quickstart 创建于2023年11月20日 20:00:00 。
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 import {{ cookiecutter.project_slug }}
 
-# -- General configuration ---------------------------------------------
+# -- 普通配置 ---------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
@@ -64,7 +64,7 @@ release = {{ cookiecutter.project_slug }}.__version__
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

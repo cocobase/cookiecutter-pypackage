@@ -4,18 +4,18 @@
 贡献的记录
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every little bit
-helps, and credit will always be given.
+欢迎贡献，我们将不胜感激！ 每一点点的贡献都会帮助到这个项目，进而帮助到更多的人。
+我们会永远会感激并记录您的功劳。
 
-You can contribute in many ways:
+您可以通过多种方式做出贡献：
 
 贡献的不同方式
-----------------------
+------------------
 
 报告当前系统的 Bug
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
+提交Bug https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
 If you are reporting a bug, please include:
 
@@ -24,26 +24,26 @@ If you are reporting a bug, please include:
 * Detailed steps to reproduce the bug.
 
 修复当前系统的 Bugs
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
 wanted" is open to whoever wants to implement it.
 
 实现正在开发的功能特性
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
 
 书写当前系统的说明文档
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 {{ cookiecutter.project_name }} could always use more documentation, whether as part of the
 official {{ cookiecutter.project_name }} docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 提交使用中的反馈
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
@@ -55,7 +55,7 @@ If you are proposing a feature:
   are welcome :)
 
 开始贡献你的力量和智慧！
---------------------
+-----------------------
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.
 
@@ -107,7 +107,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
    and make sure that the tests pass for all supported Python versions.
 
 技巧
-----
+------
 
 运行测试的子集::
 
