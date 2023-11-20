@@ -99,3 +99,6 @@ dist: clean ## 构建源代码和wheel包
 
 install: clean ## 将包安装到活动的 Python 站点包中
 	python setup.py install
+
+## 虚拟环境安装和管理任务
+include Makefile.venv
