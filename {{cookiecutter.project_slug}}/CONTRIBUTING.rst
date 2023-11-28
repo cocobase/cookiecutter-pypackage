@@ -17,17 +17,16 @@
 
 提交Bug https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues.
 
-If you are reporting a bug, please include:
+如果您要报告错误，请包括：
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+* 您的操作系统名称和版本。
+* 有关本地设置的任何可能有助于故障排除的详细信息。
+* 重现错误的详细步骤。
 
 修复当前系统的 Bugs
 ~~~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
-wanted" is open to whoever wants to implement it.
+查看 GitHub 问题以查找错误。 任何带有“bug”和“need help”标签的问题，都向任何想要实现它的人开放。
 
 实现正在开发的功能特性
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -55,7 +54,7 @@ If you are proposing a feature:
   are welcome :)
 
 开始贡献你的力量和智慧！
------------------------
+---------------------------
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for local development.
 
@@ -107,7 +106,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
    and make sure that the tests pass for all supported Python versions.
 
 技巧
-------
+-------
 
 运行测试的子集::
 
